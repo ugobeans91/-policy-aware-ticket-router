@@ -1,0 +1,226 @@
+[
+  {
+    "id": "H01",
+    "text": "Could I swap the blue mug for a green one? Purchase #A81.",
+    "expected": {
+      "outcome": "returns",
+      "policy_id": "RET-01"
+    }
+  },
+  {
+    "id": "H02",
+    "text": "The handle snapped in transit. My confirmation is order Z-992. I'd like another.",
+    "expected": {
+      "outcome": "returns",
+      "policy_id": "RET-01"
+    }
+  },
+  {
+    "id": "H03",
+    "text": "Please tell me how to send back the unopened blender from order 517 for a refund.",
+    "expected": {
+      "outcome": "returns",
+      "policy_id": "RET-01"
+    }
+  },
+  {
+    "id": "H04",
+    "text": "I paid for a queen sheet set, but order R432 contained a twin. Can you exchange it?",
+    "expected": {
+      "outcome": "returns",
+      "policy_id": "RET-01"
+    }
+  },
+  {
+    "id": "H05",
+    "text": "There are two settled debits for the same purchase on my card statement.",
+    "expected": {
+      "outcome": "billing",
+      "policy_id": "BIL-01"
+    }
+  },
+  {
+    "id": "H06",
+    "text": "Could you reissue my tax invoice with the company name?",
+    "expected": {
+      "outcome": "billing",
+      "policy_id": "BIL-01"
+    }
+  },
+  {
+    "id": "H07",
+    "text": "You accepted the item I sent back last month. When will the money reach my card?",
+    "expected": {
+      "outcome": "billing",
+      "policy_id": "BIL-01"
+    }
+  },
+  {
+    "id": "H08",
+    "text": "The amount actually debited was $58, although my receipt says $48.",
+    "expected": {
+      "outcome": "billing",
+      "policy_id": "BIL-01"
+    }
+  },
+  {
+    "id": "H09",
+    "text": "Every sign-in attempt says my recovery code is invalid.",
+    "expected": {
+      "outcome": "account_access",
+      "policy_id": "ACC-01"
+    }
+  },
+  {
+    "id": "H10",
+    "text": "I know my password, but the authenticator codes are rejected since I changed phones.",
+    "expected": {
+      "outcome": "account_access",
+      "policy_id": "ACC-01"
+    }
+  },
+  {
+    "id": "H11",
+    "text": "The link to reset my password expires as soon as I open it.",
+    "expected": {
+      "outcome": "account_access",
+      "policy_id": "ACC-01"
+    }
+  },
+  {
+    "id": "H12",
+    "text": "I can browse the site, but signing in says my profile has been suspended.",
+    "expected": {
+      "outcome": "account_access",
+      "policy_id": "ACC-01"
+    }
+  },
+  {
+    "id": "H13",
+    "text": "The sort-by-price control freezes the storefront on Safari.",
+    "expected": {
+      "outcome": "technical_support",
+      "policy_id": "TEC-01"
+    }
+  },
+  {
+    "id": "H14",
+    "text": "The payment page goes white before I can click Place Order.",
+    "expected": {
+      "outcome": "technical_support",
+      "policy_id": "TEC-01"
+    }
+  },
+  {
+    "id": "H15",
+    "text": "The order-history page returns a 502 after I sign in successfully.",
+    "expected": {
+      "outcome": "technical_support",
+      "policy_id": "TEC-01"
+    }
+  },
+  {
+    "id": "H16",
+    "text": "On Android, tapping any product photo closes the app.",
+    "expected": {
+      "outcome": "technical_support",
+      "policy_id": "TEC-01"
+    }
+  },
+  {
+    "id": "H17",
+    "text": "Order 706 came with a broken frame. Also, can you send a tax invoice for a separate purchase?",
+    "expected": {
+      "outcome": "human_review",
+      "policy_id": "REV-01"
+    }
+  },
+  {
+    "id": "H18",
+    "text": "I need access restored after losing my authenticator, and I see two completed card payments for one purchase.",
+    "expected": {
+      "outcome": "human_review",
+      "policy_id": "REV-01"
+    }
+  },
+  {
+    "id": "H19",
+    "text": "I want to exchange order Q60 for a larger size. Separately, the search filters crash the app.",
+    "expected": {
+      "outcome": "human_review",
+      "policy_id": "REV-01"
+    }
+  },
+  {
+    "id": "H20",
+    "text": "Please resend my invoice. I also can't unlock my account.",
+    "expected": {
+      "outcome": "human_review",
+      "policy_id": "REV-01"
+    }
+  },
+  {
+    "id": "H21",
+    "text": "Could you sort this out for me?",
+    "expected": {
+      "outcome": "human_review",
+      "policy_id": "REV-02"
+    }
+  },
+  {
+    "id": "H22",
+    "text": "I'd like an exchange for a chipped plate, but I can't locate the purchase reference.",
+    "expected": {
+      "outcome": "human_review",
+      "policy_id": "REV-02"
+    }
+  },
+  {
+    "id": "H23",
+    "text": "Everything was fine last week. Now I need help.",
+    "expected": {
+      "outcome": "human_review",
+      "policy_id": "REV-02"
+    }
+  },
+  {
+    "id": "H24",
+    "text": "I want to send the coffee maker back. The only number I have is your support phone number.",
+    "expected": {
+      "outcome": "human_review",
+      "policy_id": "REV-02"
+    }
+  },
+  {
+    "id": "H25",
+    "text": "Can I change the delivery address for a parcel that hasn't shipped?",
+    "expected": {
+      "outcome": "human_review",
+      "policy_id": "REV-03"
+    }
+  },
+  {
+    "id": "H26",
+    "text": "Do you sell replacement lids separately?",
+    "expected": {
+      "outcome": "human_review",
+      "policy_id": "REV-03"
+    }
+  },
+  {
+    "id": "H27",
+    "text": "Can you tell me if the green kettle will come back in stock?",
+    "expected": {
+      "outcome": "human_review",
+      "policy_id": "REV-03"
+    }
+  },
+  {
+    "id": "H28",
+    "text": "Will my package arrive before Saturday?",
+    "expected": {
+      "outcome": "human_review",
+      "policy_id": "REV-03"
+    }
+  }
+]
