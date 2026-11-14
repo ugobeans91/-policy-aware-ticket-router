@@ -1,0 +1,162 @@
+[
+  {
+    "id": "T01",
+    "text": "Order 101 arrived with a cracked lid. Please replace it.",
+    "expected": {
+      "outcome": "returns",
+      "policy_id": "RET-01"
+    }
+  },
+  {
+    "id": "T02",
+    "text": "The store sent the wrong size on order 102. Can I exchange it?",
+    "expected": {
+      "outcome": "returns",
+      "policy_id": "RET-01"
+    }
+  },
+  {
+    "id": "T03",
+    "text": "I changed my mind about order 103 and want to send it back.",
+    "expected": {
+      "outcome": "returns",
+      "policy_id": "RET-01"
+    }
+  },
+  {
+    "id": "T04",
+    "text": "I was charged twice for order 104.",
+    "expected": {
+      "outcome": "billing",
+      "policy_id": "BIL-01"
+    }
+  },
+  {
+    "id": "T05",
+    "text": "Please send the invoice for my purchase.",
+    "expected": {
+      "outcome": "billing",
+      "policy_id": "BIL-01"
+    }
+  },
+  {
+    "id": "T06",
+    "text": "My return was approved but the refund still hasn't posted.",
+    "expected": {
+      "outcome": "billing",
+      "policy_id": "BIL-01"
+    }
+  },
+  {
+    "id": "T07",
+    "text": "The password reset email never arrived.",
+    "expected": {
+      "outcome": "account_access",
+      "policy_id": "ACC-01"
+    }
+  },
+  {
+    "id": "T08",
+    "text": "I lost access to my phone and can't complete two-factor authentication.",
+    "expected": {
+      "outcome": "account_access",
+      "policy_id": "ACC-01"
+    }
+  },
+  {
+    "id": "T09",
+    "text": "My account says it's locked after too many login attempts.",
+    "expected": {
+      "outcome": "account_access",
+      "policy_id": "ACC-01"
+    }
+  },
+  {
+    "id": "T10",
+    "text": "The app crashes whenever I open my order history.",
+    "expected": {
+      "outcome": "technical_support",
+      "policy_id": "TEC-01"
+    }
+  },
+  {
+    "id": "T11",
+    "text": "Checkout shows a server error before I can submit payment.",
+    "expected": {
+      "outcome": "technical_support",
+      "policy_id": "TEC-01"
+    }
+  },
+  {
+    "id": "T12",
+    "text": "Product search keeps spinning and shows no results.",
+    "expected": {
+      "outcome": "technical_support",
+      "policy_id": "TEC-01"
+    }
+  },
+  {
+    "id": "T13",
+    "text": "I was charged twice and my package arrived damaged.",
+    "expected": {
+      "outcome": "human_review",
+      "policy_id": "REV-01"
+    }
+  },
+  {
+    "id": "T14",
+    "text": "I need to reset my password and download an invoice.",
+    "expected": {
+      "outcome": "human_review",
+      "policy_id": "REV-01"
+    }
+  },
+  {
+    "id": "T15",
+    "text": "I need help with my order.",
+    "expected": {
+      "outcome": "human_review",
+      "policy_id": "REV-02"
+    }
+  },
+  {
+    "id": "T16",
+    "text": "It didn't work. Can you fix it?",
+    "expected": {
+      "outcome": "human_review",
+      "policy_id": "REV-02"
+    }
+  },
+  {
+    "id": "T17",
+    "text": "Please replace my damaged item. I don't have the order number.",
+    "expected": {
+      "outcome": "human_review",
+      "policy_id": "REV-02"
+    }
+  },
+  {
+    "id": "T18",
+    "text": "When will my package arrive?",
+    "expected": {
+      "outcome": "human_review",
+      "policy_id": "REV-03"
+    }
+  },
+  {
+    "id": "T19",
+    "text": "Do you offer bulk discounts?",
+    "expected": {
+      "outcome": "human_review",
+      "policy_id": "REV-03"
+    }
+  },
+  {
+    "id": "T20",
+    "text": "My account is locked and the app crashes when I open it.",
+    "expected": {
+      "outcome": "human_review",
+      "policy_id": "REV-01"
+    }
+  }
+]
